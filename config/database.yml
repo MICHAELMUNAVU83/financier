@@ -25,7 +25,7 @@ default: &default
 
 development:
   <<: *default
-  database: kim_budget_development
+  database: financier_project_development
   username: postgres
   password: trance
 
@@ -61,7 +61,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: budget_test
+  database: financier_project_test
   username: postgres
   password: trance
 
@@ -87,6 +87,6 @@ test:
 #
 production:
   <<: *default
-  database: kim_budget_production
+  database: financier_project_production
   username: postgres
   password: trance
