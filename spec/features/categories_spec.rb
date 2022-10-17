@@ -33,6 +33,4 @@ RSpec.describe '/categories', type: :feature do
       expect(page).to have_content('New Category')
     end
   end
-
-
 end
