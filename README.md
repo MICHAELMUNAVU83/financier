@@ -1,4 +1,4 @@
-# Budgit - A finance tracker app
+# Budgit - A finance tracker app (FINANCIER)
 
 A web application that enables you to keep track of budget
 
@@ -19,15 +19,17 @@ A web application that enables you to keep track of budget
 
 To get a local copy up and running follow these simple example steps.
 
-## Usage
+## Usage    
 
 In your terminal, navigate to your current directory and run this code
 
-`git clone https://github.com/Kimutai01/budget`
+`git clone https://github.com/MICHAELMUNAVU83/financier.git`
 
 Then run
 
-`cd budget`
+`cd financier`
+
+Then run
 
 - Use the command `bundle install` to install all project dependencies.
 - Run `yarn install` to install all the JavaScript dependencies.
@@ -44,11 +46,11 @@ Within the projects working directory run test using the following command:
 
 ## Author
 
-👤👤 **Kiprotich Kimutai**
+👤 **MICHAELMUNAVU83**
 
-- GitHub: [@Kimutai01](https://github.com/Kimutai01)
-- Twitter: [@Kimutai_01](https://twitter.com/Kimutai_01?s=09)
-- LinkedIn: [@kiprotichkimutai](https://www.linkedin.com/m/in/kimutai-kiprotich-1b5045216)
+- GitHub: [@MICHAELMUNAVU83](https://github.com/MICHAELMUNAVU83)
+- Twitter: [@twitterhandle](https://twitter.com/MichealTrance1)
+- LinkedIn: [Micheal-munavu](https://www.linkedin.com/in/michael-munavu/)
 
 ## 🤝 Contributing
 
