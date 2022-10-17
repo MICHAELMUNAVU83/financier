@@ -1,0 +1,16 @@
+<div class="flex flex-col justify-around h-screen p-6 bg-[#857ea3]" %>
+<%= image_tag 'logo.png', alt: 'logo', class: 'mx-auto', width: '300' , height: '300' %>
+
+<div class="flex flex-row gap-3 text-center button-placeholder mx-auto">
+  <%= link_to new_user_session_path do %>
+    <div class="p-4 rounded bg-[#3778C2] text-white ">
+      LOG IN
+    </div>
+  <% end %>
+  <%= link_to new_user_registration_path do %>
+    <div class="p-4 rounded bg-[#3778C2] text-white" >
+      SIGN UP
+    </div>
+  <% end %>
+</div>
+</div>
