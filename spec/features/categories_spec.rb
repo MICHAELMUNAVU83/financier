@@ -34,15 +34,5 @@ RSpec.describe '/categories', type: :feature do
     end
   end
 
-  describe 'POST /create' do
-    context 'with valid parameters' do
-      it 'creates a new Category' do
-        visit new_category_path
-        fill_in 'Name', with: 'Test Category'
-        attach_file('Icon', "#{Rails.root}spec/fixtures/files/logo.png")
-        click_on 'Create Category'
-        expect(page).to have_content('Test Category')
-      end
-    end
-  end
+
 end
