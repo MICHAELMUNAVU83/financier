@@ -1,0 +1,14 @@
+<%= render "shared/session_header", title: "Categories", pathway: root_path %>
+
+<section class="px-6 py-10">
+  <% @categories.each do |category| %>
+    <%= link_to category_path(category) do %>
+      <%= render category %>
+    <% end %>
+  <% end %>
+  <%= link_to new_category_path do %>
+    <div class="inline-flex items-center justify-center p-4 mt-10 text-base font-normal text-center text-white rounded-md cursor-pointer bg-primary hover:bg-opacity-90">
+      New Category
+    </div>
+  <% end %>
+</section>

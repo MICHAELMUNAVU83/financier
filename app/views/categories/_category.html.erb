@@ -1,0 +1,15 @@
+<div class="flex items-center mb-10 bg-white rounded-lg">
+  <% if category.icon.attached? %>
+  <%= image_tag category.icon, class: "w-32 h-32 object-cover rounded-lg" %>
+  <% else %>
+  <img
+      src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
+      alt="image"
+      class="w-32 h-32"
+      />
+  <% end %>
+  <div class="p-8 ">
+    <h3 class="mb-4 font-semibold sm:text-base md:text-xl"><%= category.name %></h3>
+    <p class="text-base leading-relaxed text-body-color">Total payments: <%= category.total_amount(current_user) %></p>
+  </div>
+</div> 
