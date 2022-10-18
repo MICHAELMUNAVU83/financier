@@ -35,7 +35,8 @@ Then run
 - Run `yarn install` to install all the JavaScript dependencies.
 - Run `yarn build:css` to build the CSS files.
 - Run `rails db:create db:migrate` to create the database and run migrations.
-- You might need to supply a username and password for your PostgreSQL database if you run into an error with the previous step.
+ - Run `rails db:migrate RAILS_ENV=test` to migrate the test migrations
+- You might need to supply a username and `password for your PostgreSQL database if you run into an error with the previous step.
 - Simply navigate to `config/database.yml` and add your username and password to the `username` and `password` fields.
 - Type in the terminal `rails s` to start the server then click on `http://127.0.0.1:3000`
 
