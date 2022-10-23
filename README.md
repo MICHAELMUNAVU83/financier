@@ -4,7 +4,7 @@ A web application that enables you to keep track of budget
 
 ### Video Link: [Video](https://www.loom.com/share/792c0285d6574a57bff77b2eb16768ba)
 
-### Live demo: [budget app](https://techprojectmanager.herokuapp.com/)
+### Live demo: [budget app](https://morning-chamber-16356.herokuapp.com/)
 
 ## Built With
 
